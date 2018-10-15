@@ -1,3 +1,26 @@
 page-home {
+    /*ion-title{
+        background-color: orange;
+        text-align: center;
+    }*/
+    ion-content{
+        background-image: url("../../assets/imgs/Flashlight.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    .bOn{
+        margin-left: 30%;
+        position: fixed;
+        margin-top: 80%;
+        background-color: orange;
+    }
+
+    .bOff{
+        margin-left: 55%;
+        position: fixed;
+        margin-top: 80%;
+        background-color: black;
+    }
+    
 }
